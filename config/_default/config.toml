@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'  # TODO update
 languageCode = 'en-us'
 paginate = 5
-title = 'My New Hugo Site'
+title = 'My All Purpose Blog'
 
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
