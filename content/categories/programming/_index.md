@@ -1,7 +1,7 @@
 ---
 title: Programming
 description: All things related to programming.
-image:
+image: Programming_code.jpg
 
 # Badge style
 style:
