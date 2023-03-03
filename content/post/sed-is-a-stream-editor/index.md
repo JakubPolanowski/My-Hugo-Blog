@@ -12,8 +12,6 @@ tags:
     - Bash
     - Text
     - Regex
-# TODO add cover image
-draft: true
 ---
 
 ## Overview
