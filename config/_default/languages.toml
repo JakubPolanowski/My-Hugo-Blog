@@ -1,0 +1,9 @@
+# added placeholder file from https://github.com/CaiJimmy/hugo-theme-stack-starter/blob/master/config/_default/languages.toml
+
+# Uncomment this file to enable multilanguage site support
+
+#[en]
+#languageName = "English"
+#languagedirection = "ltr"
+#title = "Example Site"
+#weight = 1
