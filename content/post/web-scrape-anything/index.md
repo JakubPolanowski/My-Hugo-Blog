@@ -5,6 +5,10 @@ date: 2023-03-03T14:29:10-05:00
 categories:
     - Programming
     - Web Scraping
+tags:
+    - Python
+    - Insomnia
+    - API
 ---
 
 This article as well as most of my [web scraping articles]({{< ref "/categories/web-scraping/" >}} "web scraping") are heavily inspired based on [John Watson Rooney's](https://www.youtube.com/@JohnWatsonRooney) [video](https://youtu.be/DqtlR0y0suo) on the subject.
