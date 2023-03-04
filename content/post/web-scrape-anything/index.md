@@ -7,6 +7,7 @@ categories:
     - Web Scraping
 tags:
     - Python
+    - Requests
     - Insomnia
     - API
 ---
