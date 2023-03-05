@@ -73,9 +73,9 @@ enabled = true
 enabled = true
 
 ## Comments
-[comments]  # TODO setup comments
-enabled = false
-provider = "disqus"
+[comments] 
+enabled = true
+provider = "utterances"
 
 [comments.disqusjs]
 shortname = ""
@@ -85,9 +85,9 @@ admin = ""
 adminLabel = ""
 
 [comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
+repo = "JakubPolanowski/My-Hugo-Blog"
+issueTerm = "title"
+label = "blog comments"
 
 [comments.remark42]
 host = ""
