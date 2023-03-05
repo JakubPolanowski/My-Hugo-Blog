@@ -470,7 +470,8 @@ print(response.text)
 
 Now you have the full request and can use it to build a loop that gathers all the listings that satisfy your criteria. 
 
-Here is a link to a python notebook in which I've have a demo of this in action.
-
 Beyond that you can work to pull the wildfire risk and flood risks scores from realtor.com (see notebook linked above). Use the official Google Maps API or the public facing Waze API (see this [library](https://github.com/kovacsbalu/WazeRouteCalculator) for ideas), or anything else relating to Real Estate Listings. 
+
+You can see an demo implementation [here](https://github.com/JakubPolanowski/Web-Scraping-Public-Realtor-Data/blob/master/web%20scraping%20realtor.ipynb).
+
 
