@@ -1,9 +1,9 @@
 baseURL = 'http://jakubpol.bloc/'
-languageCode = 'en-us'
 paginate = 5
 title = 'Jakub Polanowski'
 
-DefaultContentLanguage = "en"
-hasCJKLanguage = false
+# languageCode = 'en-us'
+# DefaultContentLanguage = "en"
+# hasCJKLanguage = false
 
 theme = 'hugo-theme-stack'
