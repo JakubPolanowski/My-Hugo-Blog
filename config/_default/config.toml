@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'  # TODO update
+baseURL = 'http://jakubpol.bloc/'
 languageCode = 'en-us'
 paginate = 5
 title = 'Jakub Polanowski'
