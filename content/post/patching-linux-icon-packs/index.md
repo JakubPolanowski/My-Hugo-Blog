@@ -5,7 +5,10 @@ image: wrongicon.png
 description: "A guide on patching Linux icon packs to fix issues related to incomplete application coverage."
 categories:
     - Technology
-draft: true
+tags:
+    - Linux
+    - Customization
+    - Desktop
 ---
 
 *This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2019/02/27/quick-guide-to-patching-linux-icon-packs/)*
