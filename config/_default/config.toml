@@ -1,4 +1,4 @@
-baseURL = 'http://jakubpol.blog/'
+baseURL = 'https://jakubpol.blog/'
 paginate = 5
 title = 'Jakub Polanowski'
 
