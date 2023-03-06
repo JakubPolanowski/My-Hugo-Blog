@@ -9,7 +9,7 @@ tags:
     - Steganography
 ---
 
-*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2018/10/30/hiding-in-plain-sight-with-steganography/)*
+*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2018/10/30/hiding-in-plain-sight-with-steganography/).*
 
 Steganography is the process of hiding one file inside another, most popularly, hiding a file within a picture. If you’re a fan of Mr. Robot you are likely already somewhat familiar with this.
 

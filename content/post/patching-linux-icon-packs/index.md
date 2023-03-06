@@ -11,7 +11,7 @@ tags:
     - Desktop
 ---
 
-*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2019/02/27/quick-guide-to-patching-linux-icon-packs/)*
+*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2019/02/27/quick-guide-to-patching-linux-icon-packs/).*
 
 One of the nice advantages of using Linux is the wealth of customization options available. A key area of  that customization are app icons. For those unfamiliar, it is similar to how icons change across Android versions, even though the apps themselves are often the same.
 

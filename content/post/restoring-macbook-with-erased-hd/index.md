@@ -12,7 +12,7 @@ tags:
     - Recovery
 ---
 
-*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2018/04/06/restoring-a-macbook-with-an-erased-hard-drive/)*
+*This article was originally written by me for UMass IT Techbytes Blog. Since then the blog has been discontinued. This article is republished here for archival purposes, the original can still be found [here](https://blogs.umass.edu/Techbytes/2018/04/06/restoring-a-macbook-with-an-erased-hard-drive/).*
 
 
 If you’re anything like me, you will (or already have) accidentally wiped your MacBook’s SSD. It may seem like you just bricked your MacBook, but luckily there is a remedy.
