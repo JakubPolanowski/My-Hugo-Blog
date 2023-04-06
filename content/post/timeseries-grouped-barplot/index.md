@@ -2,7 +2,6 @@
 title: "Plotting a Grouped Time Series Dataset Bar Chart"
 description: "Creating a simple grouped `matplotlib` bar chart is a little complicated but documented, using time series is just as doable but not as well documented."
 date: 2023-04-06T09:09:59-04:00
-draft: true
 categories:
     - Programming
     - Data Science
@@ -38,11 +37,13 @@ plt.bar(df['X']+(width/2), df['B'], width=width, label='B')
 plt.legend()
 plt.xlabel('X')
 plt.ylabel('Value')
+
+plt.show()
 ```
 
 ![](simple-grouped-plot.png)
 
-To summarize the code, the width is manually set, then based of the width we use a simple calculation to center the bars around the point. So since we have two categories, to center we need to subtracted half the width from the left column and add half the width to the right.
+To summarize the code, the width is manually set, then based of the width we use a simple calculation to center the bars around the point. So since we have two categories, to center we need to subtracted half the width from the left column and add half the width to the right. Note that you may need to tinker with the `width` value to get the optimal spacing/appearance of the bars.
 
 ### Bar Plot with Categories on X
 
@@ -88,4 +89,30 @@ plt.show()
 
 ## Grouped Bar Plot with Time Series
 
+The main complication that occurs with dealing with time series compared to the simple plot is the time series datatype itself. In simple plot, we could just subtract the width from the `x` series, this time around we need to convert the width to a `timedelta`, which only then can be subtracted from out `x` (time) series.
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from datetime import timedelta
+
+df = pd.DataFrame()
+df['Date'] = pd.date_range("2023-04-01", periods=5, freq="M")
+df['A'] = np.random.randint(0,100,size=5)
+df['B'] = np.random.randint(0,100,size=5)
+
+width = 9  # Note that this is now a unit of time
+plt.bar(df['Date']-timedelta(days=width/2), df['A'], width=width, label='A')
+plt.bar(df['Date']+timedelta(days=width/2), df['B'], width=width, label='B')
+plt.legend()
+
+plt.xlabel('Date')
+plt.ylabel('Value')
+
+plt.show()
+```
+
+![](ts-grouped-barplot.png)
+
+You can see we used `days` when creating the `timedelta` object. For the most part this will work and the width can be adjusted as needed, but when more resolution is needed `seconds` could be used instead. 
