@@ -1,6 +1,6 @@
 ---
 title: "Plotting a Grouped Time Series Dataset Bar Chart"
-description: "Creating a simple grouped `matplotlib` bar chart is a little complicated but documented, using time series is just as doable but not as well documented."
+description: "Creating a simple grouped matplotlib bar chart is a little complicated but documented, using time series is just as doable but not as well documented."
 date: 2023-04-06T09:09:59-04:00
 categories:
     - Programming
