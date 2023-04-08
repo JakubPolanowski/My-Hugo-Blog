@@ -1,7 +1,6 @@
 ---
 title: "Fitting Linear Regression and Plotting Confidence Intervals"
 date: 2023-04-07T22:25:11-04:00
-draft: true
 description: Confidence intervals are a useful metric for understanding the uncertainty within samples. With Python, this concept can be applied to linear models as well as in the visualization of said models. 
 categories:
     - Programming
